@@ -53,7 +53,7 @@ La solución está desarrollada bajo una arquitectura web moderna, utilizando ex
 1. **Frontend:** Interfaz web ligera en HTML/CSS/JavaScript accesible desde cualquier dispositivo (PC y celular).
 2. **Backend (Node.js 24 + Express 5):** Servidor HTTP que expone endpoints REST (`POST /api/chat`, `GET /health`) y gestiona las conversaciones persistentes.
 3. **Agente en Microsoft Foundry:** Agente configurado con el modelo `gpt-5-mini` que procesa lenguaje natural, unifica claves de productos y consulta el estado de las órdenes.
-4. **Despliegue:** Alojado en **Azure App Service (B1)** con **Identidad Administrada Asignada por el Sistema** y el rol `Foundry User` (`53ca6127-db72-4b80-b1b0-d745d6d5456d`) para autenticación segura sin API Keys en el código.
+4. **Despliegue:** Alojado en **Azure App Service (B1)** con **Identidad Administrada Asignada por el Sistema** y el rol `Foundry User`  para autenticación segura sin API Keys en el código.
 
 ---
 
